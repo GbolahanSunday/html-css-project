@@ -1,16 +1,32 @@
-<button class="stretch">Stretchable Button</button>
+<button class="stretch">Stretch</button>
+
+<div class="btn">
+    <button class="one">one</button>
+    <button class="two">two</button>
+    <button class="three">three</button>
+</div>
 
 <style>
     button {
         font-size: 15px;
         font-weight: bold;
-        background-color: green;
+        background-color: rgb(2, 101, 2);
         color: white;
         border: 5px solid white;
-        padding: 15px 20px;
+        padding: 8px 16px;
+        transition: padding 0.15s;
     }
     button:hover {
-        font-weight: 700;
-        letter-spacing: 2px;
+        padding: 12px 20px;
+    }
+
+    .btn .one .two .three {
+        background-color: rgb(2, 101, 2);
+        color: white;
+        margin-right: 3px;
+    }
+
+   .btn .one:hover {
+        width: 100px;
     }
 </style>
