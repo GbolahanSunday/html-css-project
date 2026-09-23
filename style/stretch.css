@@ -1,0 +1,22 @@
+    button {
+        font-size: 15px;
+        font-weight: bold;
+        background-color: rgb(2, 101, 2);
+        color: white;
+        border: 5px solid white;
+        padding: 8px 16px;
+        transition: padding 0.15s;
+    }
+    button:hover {
+        padding: 12px 20px;
+    }
+
+    .btn .one .two .three {
+        background-color: rgb(2, 101, 2);
+        color: white;
+        margin-right: 3px;
+    }
+
+   .btn .one:hover {
+        width: 100px;
+   }
